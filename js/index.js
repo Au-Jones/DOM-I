@@ -152,5 +152,7 @@ const em =
 document.createElement = ("email")
 em.textContent = "sales@greatidea.io";
 
-
+const ftr = 
+document.createElement = ("footer")
+ftr.textContent = "Copyright Great Idea! 2018";
 
