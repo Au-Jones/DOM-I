@@ -24,7 +24,7 @@ const siteContent = {
     "product-h4":"Product",
     "product-content": "Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.",
     "vision-h4":"Vision",
-    "vision-content": "Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.",
+    "vision-content":"vision-h4"
   },
   "contact": {
     "contact-h4" : "Contact",
@@ -59,6 +59,7 @@ navStyles.forEach(element => {
 const newCont = 
 document.querySelector('header')
 
+// nav
 
 const NewNav =
 document.createElement("a");
@@ -80,7 +81,57 @@ nav.appendChild(header)
 // const NewCTA = 
 // documentquerySelector('.cta')
 
+// cta
+
 const newH1 =
 document.createElement("h1");
 newH1.textContent =  "DOM Is Awesome";
+
+const newButton = 
+document.createElement("button")
+newButton.textContent = "Get Started";
+
+const imgID =
+document.getElementById("logo-img")
+// console.log(imgID)
+
+// maincontent
+
+const FeatH4 = 
+document.createElement("features-h4")
+FeatH4.textContent = "Features";
+
+const H4Cont = 
+document.createElement("features-content")
+H4Cont.textContent =  "Features content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+
+const AH4 = 
+document.createElement("about-h4")
+AH4.textContent = ("About");
+
+const AboutCont = ("about-content")
+document.createElement = "About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+
+const midImg = 
+document.querySelector("middle-img-src")
+
+midImg.src =  "img/mid-page-accent.jpg"
+midImg.alt = "code snippets across the screen"
+
+const servH4 = 
+document.createElement = ("services-h4")
+servH4.textContent = "Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+
+const prodH4 = 
+    document.createElement = ("product-h4")
+    prodH4.textContent = "Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+
+const VisH4 = 
+document.createElement = ("vision-h4")
+VisH4.textContent = "Vision";
+
+const viscon = 
+document.createEllement = ("vision-content")
+viscon.textConent = "vision-h4";
+
 
