@@ -134,4 +134,23 @@ const viscon =
 document.createEllement = ("vision-content")
 viscon.textConent = "vision-h4";
 
+// contact
+
+const contH4 = 
+document.createElement = ("contact-h4")
+contH4.textConent = "Contact";
+
+const Addr = 
+document.createElement = ("address")
+Addr.textContent = "123 Way 456 Street Somewhere, USA";
+
+const phn = 
+document.createElement = ("phone")
+phn.textContent = "1 (888) 888-8888";
+
+const em = 
+document.createElement = ("email")
+em.textContent = "sales@greatidea.io";
+
+
 
