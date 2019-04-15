@@ -48,3 +48,39 @@ document.getElementById("logo-img")
 const Idimg =
 document.getElementById("cta-img")
 // console.log(Idimg)
+
+const navStyles = 
+document.querySelectorAll("nav a")
+
+navStyles.forEach(element => {
+  element.stlye.color = 'green'
+});
+
+const newCont = 
+document.querySelector('header')
+
+
+const NewNav =
+document.createElement("a");
+
+NewNav.textContent =   {
+  "nav-item-1": "Services",
+  "nav-item-2": "Product",
+  "nav-item-3": "Vision",
+  "nav-item-4": "Features",
+  "nav-item-5": "About",
+  "nav-item-6": "Contact",
+  "img-src": "img/logo.png"
+}
+
+const nav = 
+document.querySelector("nav")
+nav.appendChild(header)
+
+// const NewCTA = 
+// documentquerySelector('.cta')
+
+const newH1 =
+document.createElement("h1");
+newH1.textContent =  "DOM Is Awesome";
+
