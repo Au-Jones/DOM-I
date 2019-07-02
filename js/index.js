@@ -1,5 +1,5 @@
 const siteContent = {
-  "nav": {
+  nav: {
     "nav-item-1": "Services",
     "nav-item-2": "Product",
     "nav-item-3": "Vision",
@@ -8,9 +8,9 @@ const siteContent = {
     "nav-item-6": "Contact",
     "img-src": "img/logo.png"
   },
-  "cta": {
-    "h1": "DOM Is Awesome",
-    "button": "Get Started",
+  cta: {
+    h1: "DOM Is Awesome",
+    button: "Get Started",
     "img-src": "img/header-img.png"
   },
   "main-content": {
@@ -26,14 +26,14 @@ const siteContent = {
     "vision-h4":"Vision",
     "vision-content":"vision-h4"
   },
-  "contact": {
+  contact: {
     "contact-h4" : "Contact",
-    "address" : "123 Way 456 Street Somewhere, USA",
-    "phone" : "1 (888) 888-8888",
-    "email" : "sales@greatidea.io",
+    address : "123 Way 456 Street Somewhere, USA",
+    phone : "1 (888) 888-8888",
+    email : "sales@greatidea.io",
   },
-  "footer": {
-    "copyright" : "Copyright Great Idea! 2018"
+  footer: {
+    copyright : "Copyright Great Idea! 2018"
   },
 };
 
@@ -44,6 +44,7 @@ logo.setAttribute('src', siteContent["nav"]["img-src"])
 const imgID =
 document.getElementById("logo-img")
 // console.log(imgID)
+
 
 const Idimg =
 document.getElementById("cta-img")
